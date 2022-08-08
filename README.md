@@ -25,18 +25,34 @@
 
 Установить на личный компьютер:
 
-- VirtualBox
-- Vagrant
-- Ansible
+- VirtualBox:
+```
+root@tester:~# virtualbox --help
+Oracle VM VirtualBox VM Selector v6.1.34_Ubuntu
+(C) 2005-2022 Oracle Corporation
+All rights reserved.
 
+No special options.
+
+If you are looking for --startvm and related options, you need to use VirtualBoxVM.
+```
+
+- Vagrant
+```
+root@tester:~# vagrant --version
+Vagrant 2.2.19
+```
+- Ansible
+```
+root@tester:~# ansible --version
+ansible 2.10.8
+  config file = None
+  configured module search path = ['/root/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3/dist-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 3.10.4 (main, Jun 29 2022, 12:14:53) [GCC 11.2.0]
+```
 *Приложить вывод команд установленных версий каждой из программ, оформленный в markdown.*
 
-## Задача 4 (*)
+![screen1](pic1.png)
 
-Воспроизвести практическую часть лекции самостоятельно.
-
-- Создать виртуальную машину.
-- Зайти внутрь ВМ, убедиться, что Docker установлен с помощью команды
-```
-docker ps
-```
